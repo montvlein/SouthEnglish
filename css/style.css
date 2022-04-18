@@ -1,2 +1,32 @@
 @import url(colors.css);
 @import url(generals.css);
+
+header {
+    background-color: var(--main-color);
+    color: white;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: var(--secondary-color);
+}
+
+header figure {
+    display: flex;
+    padding: 0.5rem;
+    gap: 5px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 50px;
+    border-radius: 50%;
+}
+
+nav > ul {
+    gap: 15px;
+    margin: 0 0.5rem;
+}

@@ -52,22 +52,85 @@ nav > ul {
 section {
     height: 88vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 }
 
 #inicio {
-    background-color: brown;
+    /* background-image: url("../public/sun.svg");
+    background-repeat: no-repeat;
+    background-position: top left; */
+
+    background-image: url("../public/undraw_tree_swing.svg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+#inicio > h2 {
+    color: var(--secondary-color);
 }
 
 #somos {
-    background-color: blue;
+    background-color: var(--secondary-color);
+}
+
+#somos > h2 {
+    color: #fcc;
+}
+
+#somos > p {
+    text-align: justify;
+    padding: 0 2rem;
 }
 
 #servicios {
-    background-color: bisque;
+    background-color: var(--secondary-complement);
+}
+
+#servicios > h2 {
+    color: #cff;
+}
+
+#servicios > div {
+    display: flex;
+    text-align: center;
+    gap: 1rem;
 }
 
 #contacto {
-    background-color: aquamarine;
+    background-image: url("../public/undraw_things_to_say\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacto form {
+    align-self: flex-end;
+    border: 2px solid var(--secondary-complement);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 2rem;
+    gap: 1rem;
+}
+
+#contacto input[type=submit] {
+    background-color: var(--secondary-complement);
+    border-radius: 15px;
+    width: 50%;
+    border: none;
+    padding: 0.5rem;
+}
+
+#contacto input[type=submit]:hover {
+    background-color: var(--main-color);
+    color: #fff;
 }
 
 footer {

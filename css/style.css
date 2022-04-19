@@ -4,14 +4,30 @@
 header {
     background-color: var(--main-color);
     color: white;
+    height: 12vh;
+    position: sticky;
+    top: 0;
 }
 
 header a {
     color: white;
+    position: relative;
 }
 
 header a:hover {
-    color: var(--secondary-color);
+    color: black;
+    z-index: 0;
+}
+
+header a:hover::before {
+    content: " ";
+    width: 100%;
+    height: 25%;
+    background-color: var(--secondary-color);
+    position: absolute;
+    z-index: -1;
+    bottom: -2px;
+    left: 5px;
 }
 
 header figure {
@@ -23,10 +39,40 @@ header figure {
 
 .logo {
     max-width: 50px;
+    max-height: 50px;
     border-radius: 50%;
 }
 
 nav > ul {
     gap: 15px;
     margin: 0 0.5rem;
+}
+
+section {
+    height: 88vh;
+    width: 100%;
+}
+
+#inicio {
+    background-color: brown;
+}
+
+#somos {
+    background-color: blue;
+}
+
+#servicios {
+    background-color: bisque;
+}
+
+#contacto {
+    background-color: aquamarine;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

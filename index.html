@@ -59,15 +59,16 @@
             <h2>Contacto</h2>
             <p>Completá el formulario y nos comunicaremos a la brevedad.</p>
             <form action="" method="post" class="d-flex flex-column">
-                <label for="name">
-                    nombre
-                    <input type="text" name="name">
-                </label>
-                <label for="email">
-                    mail
-                    <input type="email" name="email">
-                </label>
-                <textarea name="consulta" id="" cols="30" rows="10"></textarea>
+                <label for="name">nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre y Apellido o Nick" required>
+                <label for="email">mail</label>
+                <input type="email" name="email" id="email" placeholder="nombre@mail.com" required>
+                <textarea name="consulta" cols="80" rows="10" required>
+                    Hola,
+estoy interesadx en los cursos
+
+¿Cuándo me puedo inscribir?
+                </textarea>
                 <input type="submit" value="ENVIAR">
             </form>
         </section>

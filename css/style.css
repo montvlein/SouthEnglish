@@ -120,6 +120,16 @@ section {
     gap: 1rem;
 }
 
+#contacto form input {
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#contacto form textarea {
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
 #contacto input[type=submit] {
     background-color: var(--secondary-complement);
     border-radius: 15px;

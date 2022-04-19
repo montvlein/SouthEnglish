@@ -99,7 +99,19 @@ section {
 #servicios > div {
     display: flex;
     text-align: center;
-    gap: 1rem;
+    gap: 2rem;
+}
+
+#servicios figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#servicios img {
+    width: 100%;
+    height: auto;
+    padding: 2.5rem;
 }
 
 #contacto {

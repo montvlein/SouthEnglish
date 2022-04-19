@@ -44,8 +44,9 @@ header figure {
 }
 
 nav > ul {
-    gap: 15px;
+    gap: 1rem;
     margin: 0 0.5rem;
+    padding: 0 0.5rem;
 }
 
 section {
@@ -72,7 +73,4 @@ section {
 footer {
     background-color: black;
     color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }

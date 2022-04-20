@@ -88,6 +88,11 @@ section {
     padding: 0 2rem;
 }
 
+.wave {
+    background-color: var(--secondary-complement);
+    margin-bottom: -4px;
+}
+
 #servicios {
     background-color: var(--secondary-complement);
 }

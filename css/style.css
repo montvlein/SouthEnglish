@@ -50,25 +50,20 @@ nav > ul {
 }
 
 section {
-    height: 88vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
 }
 
 #inicio {
-    /* background-image: url("../public/sun.svg");
+    height: 88vh;
+    background-image: url("../public/sun.svg"), url("../public/undraw_tree_swing.svg");
     background-repeat: no-repeat;
-    background-position: top left; */
-
-    background-image: url("../public/undraw_tree_swing.svg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: bottom right;
-    background-size: cover;
+    background-position: top left, bottom right;
+    /* background-attachment: scroll; */
+    /* background-size: cover; */
 }
 
 #inicio > h2 {
@@ -77,6 +72,7 @@ section {
 
 #somos {
     background-color: var(--secondary-color);
+    height: 50vh;
 }
 
 #somos > h2 {
@@ -95,6 +91,7 @@ section {
 
 #servicios {
     background-color: var(--secondary-complement);
+    height: 50vh;
 }
 
 #servicios > h2 {

@@ -110,6 +110,7 @@ section {
 #servicios {
     background-color: var(--secondary-complement);
     min-height: 50vh;
+    height: 88vh;
 }
 
 #servicios h2 {
@@ -133,6 +134,12 @@ section {
     width: 100%;
     height: auto;
     padding: 2.5rem;
+}
+
+#servicios p {
+    text-align: justify;
+    max-width: 1200px;
+    margin: 2rem;
 }
 
 #contacto {
@@ -180,7 +187,6 @@ section {
 }
 
 footer {
-    height: 12vh;
     background-color: black;
     color: white;
     display: flex;

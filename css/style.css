@@ -160,4 +160,14 @@ section {
 footer {
     background-color: black;
     color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+    padding: 1rem;
+}
+
+footer a {
+    color: #fff;
+    display: flex;
+    align-items: center;
 }

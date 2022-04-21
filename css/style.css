@@ -1,12 +1,16 @@
 @import url(colors.css);
 @import url(generals.css);
 
+h2 {
+    margin: 2rem;
+}
+
 header {
     background-color: var(--main-color);
     color: white;
     height: 12vh;
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
 }
 
 header a {
@@ -55,31 +59,45 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 }
 
 #inicio {
     height: 88vh;
-    background-image: url("../public/sun.svg"), url("../public/undraw_tree_swing.svg");
+    background-image: url("../public/sun.svg")/*, url("../public/undraw_tree_swing.svg")*/;
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 20% 20% /*, bottom right */;
     /* background-attachment: scroll; */
     /* background-size: cover; */
+    position: relative;
 }
 
-#inicio > h2 {
+#inicio h2 {
     color: var(--secondary-color);
+}
+
+#inicio > div {
+    bottom: 0;
+}
+
+#inicio > div  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    margin: 1rem;
 }
 
 #somos {
     background-color: var(--secondary-color);
-    height: 50vh;
+    min-height: 50vh;
 }
 
-#somos > h2 {
+#somos h2 {
     color: #fcc;
 }
 
-#somos > p {
+#somos p {
     text-align: justify;
     padding: 0 2rem;
 }
@@ -91,10 +109,10 @@ section {
 
 #servicios {
     background-color: var(--secondary-complement);
-    height: 50vh;
+    min-height: 50vh;
 }
 
-#servicios > h2 {
+#servicios h2 {
     color: #cff;
 }
 
@@ -102,6 +120,7 @@ section {
     display: flex;
     text-align: center;
     gap: 2rem;
+    max-width: 1200px;
 }
 
 #servicios figure {
@@ -123,6 +142,9 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    height: 88vh;
 }
 
 #contacto form {
@@ -158,6 +180,7 @@ section {
 }
 
 footer {
+    height: 12vh;
     background-color: black;
     color: white;
     display: flex;
@@ -170,4 +193,5 @@ footer a {
     color: #fff;
     display: flex;
     align-items: center;
+    margin: 1rem;
 }

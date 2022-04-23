@@ -1,8 +1,19 @@
 @import url(colors.css);
 @import url(generals.css);
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+
+* {
+    font-family: 'Akshar', sans-serif;
+}
+
+h1 {
+    font-family: 'Ms Madi', cursive;
+}
 
 h2 {
     margin: 2rem;
+    font-size: 2rem;
 }
 
 /* Header */
@@ -47,6 +58,7 @@ header nav > ul > li > a {
     color: white;
     position: relative;
     margin: 0 1rem;
+    font-size: 1.3rem;
 }
 
 header nav a:hover {
@@ -89,6 +101,7 @@ section {
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    font-size: 1.3rem;
 }
 
 #inicio {
@@ -103,6 +116,9 @@ section {
 
 #inicio h2 {
     color: var(--secondary-color);
+    font-size: 4rem;
+    font-family: 'Ms Madi', cursive;
+    text-align: center;
 }
 
 #inicio > div {

@@ -134,7 +134,7 @@ section {
 }
 
 #somos {
-    background-color: var(--secondary-color);
+    background-color: var(--main-color);
     min-height: 50vh;
 }
 
@@ -148,12 +148,12 @@ section {
 }
 
 .wave {
-    background-color: var(--main-color);
+    background-color: var(--secondary-color);
     margin-bottom: -8px;
 }
 
 .wave path {
-    fill: var(--secondary-color);
+    fill: var(--main-color);
     fill-opacity: 1;
 }
 

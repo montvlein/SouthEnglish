@@ -6,7 +6,6 @@ window.addEventListener("load",function(e){
         element.addEventListener('click', e=>{
             unSelectNavItem()
             element.classList.add("active")
-            console.log(`Scroll position: ${document.body.scrollTop}`)
         })
     }
 

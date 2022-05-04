@@ -148,8 +148,13 @@ section {
 }
 
 .wave {
-    background-color: var(--secondary-complement);
-    margin-bottom: -4px;
+    background-color: var(--main-color);
+    margin-bottom: -8px;
+}
+
+.wave path {
+    fill: var(--secondary-color);
+    fill-opacity: 1;
 }
 
 #servicios {

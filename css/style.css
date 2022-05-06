@@ -205,12 +205,6 @@ section {
     padding: 2.5rem;
 }
 
-#servicios p {
-    text-align: justify;
-    max-width: 1200px;
-    margin: 2rem;
-}
-
 #niveles article div {
     margin: 20px;
 }
@@ -259,23 +253,34 @@ section {
 
 #contacto input[type=submit]:hover {
     background-color: var(--main-color);
-    color: #fff;
+}
+
+.waveFooter {
+    margin-bottom: -8px;
+}
+
+.waveFooter path {
+    fill: var(--main-color);
+    fill-opacity:1;
 }
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: var(--main-color);
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 5px;
     padding: 1rem;
 }
 
 footer a {
-    color: #fff;
     display: flex;
     align-items: center;
     margin: 1rem;
+    color: #000;
+}
+
+footer img {
+    max-width: 100%;
 }
 
 @media (max-width:780px) {
@@ -320,10 +325,6 @@ footer a {
 
     #servicios > div {
         flex-direction: column;
-    }
-
-    #servicios p {
-        display: none;
     }
 
     #contacto form {

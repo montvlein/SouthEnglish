@@ -11,7 +11,7 @@
 .bg-white{ background: white; }
 .cursor-pointer {cursor: pointer;}
 .color-white{ color: white;}
-.container { margin: auto; max-width: 1200px; }
+.container { margin: auto; max-width: 1024px; }
 .d-flex { display: flex; }
 .d-flex-rowreverse { flex-direction: row-reverse; }
 .flex-column { flex-direction: column; }

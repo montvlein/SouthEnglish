@@ -113,17 +113,26 @@ section {
 #inicio {
     height: 88vh;
     position: relative;
+    padding: unset;
 }
 
-#inicio h2 {
-    color: var(--secondary-color);
-    font-size: 4rem;
-    font-family: 'Ms Madi', cursive;
-    text-align: center;
+#inicio .waveInicio {
+    position: absolute;
+    bottom: -8px;
+    z-index: -1;
+}
+
+#inicio .waveInicio path {
+    fill: var(--main-color);
+    fill-opacity: 1;
 }
 
 #inicio > div {
-    bottom: 0;
+    right: 0;
+}
+
+#inicio > div ul {
+    flex-direction: column;
 }
 
 #inicio > div  a {
@@ -155,6 +164,15 @@ section {
 
 .wave path {
     fill: var(--main-color);
+    fill-opacity: 1;
+}
+
+.waveNiveles {
+    margin-bottom: -8px;
+}
+
+.waveNiveles path {
+    fill: var(--secondary-color);
     fill-opacity: 1;
 }
 
@@ -191,6 +209,10 @@ section {
     text-align: justify;
     max-width: 1200px;
     margin: 2rem;
+}
+
+#niveles article div {
+    margin: 20px;
 }
 
 #contacto {

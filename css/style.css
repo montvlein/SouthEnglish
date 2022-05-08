@@ -287,10 +287,13 @@ section h2 {
 #contacto input[type=submit] {
     background-color: var(--secondary-color);
     border-radius: 15px;
-    width: 50%;
     border: none;
-    padding: 0.5rem;
+    padding: 1rem;
     align-self: flex-end;
+    color: var(--complement-color);
+    letter-spacing: 0.3rem;
+    font-family: 'Titania', sans-serif;
+    font-size: 1.05rem;
 }
 
 #contacto input[type=submit]:hover {
@@ -423,6 +426,10 @@ footer img {
 
     #contacto form {
         width: 100%;
+    }
+
+    #contacto input[type=submit] {
+        align-self: center;
     }
 }
 

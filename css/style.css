@@ -26,7 +26,7 @@
 }
 
 * {
-    font-family: 'Titania', sans-serif;
+    font-family: "Afl";
 }
 
 h1 {
@@ -34,8 +34,11 @@ h1 {
 }
 
 h2 {
+    font-family: 'Titania', sans-serif;
     margin: 2rem;
     font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--secondary-color);
 }
 
 p {
@@ -99,15 +102,14 @@ header nav > ul {
 }
 
 header nav > ul > li > a {
-    color: white;
     position: relative;
     margin: 0 1rem;
     font-size: 1.3rem;
     font-family: "Afl";
+    color: #000;
 }
 
 header nav a:hover {
-    color: black;
     z-index :0;
 }
 
@@ -172,6 +174,7 @@ section h2 {
 
 #inicio > div {
     right: 0;
+    bottom: 25vh;
 }
 
 #inicio > div ul {
@@ -234,7 +237,7 @@ section h2 {
 }
 
 #niveles article h3 {
-    padding: 0.75rem;
+    padding: 1rem;
 }
 
 /* FORM */
@@ -322,6 +325,10 @@ section h2 {
     fill: var(--secondary-color);
 }
 
+.waveFooter {
+    display: none;
+}
+
 .waveFooter path {
     fill: var(--main-color);
 }
@@ -366,7 +373,7 @@ footer img {
     header nav {
         display: none;
         position: absolute;
-        background-color:rgba(186, 1, 202, 0.8);
+        background-color:rgba(186, 1, 202, 0.9);
         top: 12vh;
         bottom: -88vh;
         left: 0;
@@ -387,6 +394,10 @@ footer img {
         margin: 2.5rem 0;
         font-weight: bold;
         font-size: 2rem;
+    }
+
+    header nav > ul > li > a {
+        color: #fff;
     }
 
     #inicio div {

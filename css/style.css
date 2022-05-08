@@ -31,6 +31,8 @@
 
 h1 {
     font-family: 'Omelette';
+    color: var(--complement-color);
+    letter-spacing: 2px;
 }
 
 h2 {

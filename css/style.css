@@ -396,6 +396,10 @@ footer img {
         flex-direction: column;
     }
 
+    #servicios div figure img {
+        max-width: 350px;
+    }
+
     #contacto form {
         width: 100%;
     }

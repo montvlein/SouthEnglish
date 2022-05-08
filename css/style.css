@@ -167,6 +167,7 @@ section h2 {
     font-family: "Highschool";
     font-size: 4rem;
     z-index: 1;
+    text-align: center;
 }
 
 #inicio > div {
@@ -246,6 +247,8 @@ section h2 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+    padding: 1.5rem;
 }
 
 #contacto form {
@@ -253,8 +256,6 @@ section h2 {
     border-radius: 15px;
     padding: 1.5rem;
     margin: 2rem;
-    gap: 1rem;
-    width: 50%;
     z-index: 1;
 }
 
@@ -381,6 +382,10 @@ footer img {
         margin: 2.5rem 0;
         font-weight: bold;
         font-size: 2rem;
+    }
+
+    #inicio div {
+        bottom: 0;
     }
 
     #servicios > div {

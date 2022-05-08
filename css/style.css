@@ -261,6 +261,7 @@ section h2 {
     padding: 1.5rem;
     margin: 2rem;
     z-index: 1;
+    width: 60%;
 }
 
 #contacto form input {

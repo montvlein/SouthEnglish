@@ -378,7 +378,7 @@ footer img {
     header nav {
         display: none;
         position: absolute;
-        background-color:rgba(186, 1, 202, 0.9);
+        background-color:rgba(59, 10, 119, 0.9);
         top: 12vh;
         bottom: -88vh;
         left: 0;
@@ -402,6 +402,10 @@ footer img {
     }
 
     header nav > ul > li > a {
+        color: #fff;
+    }
+
+    .active {
         color: #fff;
     }
 

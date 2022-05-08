@@ -48,7 +48,7 @@ p {
 header {
     background-color: white;
     height: 12vh;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
@@ -94,6 +94,8 @@ header nav {
 header nav > ul {
     margin: 0 0.5rem;
     padding: 0 0.5rem;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 header nav > ul > li > a {
@@ -344,6 +346,7 @@ footer img {
         position: sticky;
         top: 0;
         z-index: 9;
+        align-items: center;
     }
 
     header label {
@@ -354,26 +357,27 @@ footer img {
         display: flex;
     }
 
-    nav {
+    header nav {
         display: none;
         position: absolute;
         background-color:rgba(186, 1, 202, 0.8);
         top: 12vh;
-        bottom: -77vh;
+        bottom: -88vh;
         left: 0;
         right: 0;
         z-index: 10;
         width: 100%;
+        border-radius: 0 0 0 60%;
     }
 
-    nav ul {
+    header nav ul {
         width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    nav ul li {
+    header nav ul li {
         margin: 2.5rem 0;
         font-weight: bold;
         font-size: 2rem;
@@ -390,6 +394,10 @@ footer img {
 
 @media (max-width:380px) {
     header figcaption {
+        display: none;
+    }
+
+    header figure p {
         display: none;
     }
 }

@@ -25,6 +25,15 @@
     src: url(../static/Fuentes/Omelette.otf);
 }
 
+/* @keyframes entradaSalida {
+    0% {
+        border-radius: 0 0 0 100%;
+    }
+    100% {
+        border-radius: 0 0 0 0%;
+    }
+} */
+
 * {
     font-family: "Afl";
 }
@@ -383,6 +392,11 @@ footer img {
 
     header input:checked ~ nav {
         display: flex;
+        /* animation-name: entradaSalida;
+        animation-duration: 2s;
+        animation-delay: 0s;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out; */
     }
 
     header nav {

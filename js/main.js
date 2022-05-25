@@ -12,6 +12,17 @@ function obrservar(arr) {
     })
 }
 
+function active(elementos, observador) {
+    elementos.forEach((section) => {
+        index = Array.from(sections).indexOf(section.target)
+        if (section.isIntersecting) {
+            navlinks[index].classList.add("active")
+        } else {
+            navlinks[index].classList.remove("active")
+        }
+    })
+}
+
 obrservar(sections)
 
 // window.addEventListener("load",function(e){
@@ -30,13 +41,4 @@ obrservar(sections)
 
 // })
 
-function active(elementos, observador) {
-    elementos.forEach((section) => {
-        index = Array.from(sections).indexOf(section.target)
-        if (section.isIntersecting) {
-            navlinks[index].classList.add("active")
-        } else {
-            navlinks[index].classList.remove("active")
-        }
-    })
-}
+

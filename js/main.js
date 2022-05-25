@@ -28,7 +28,8 @@ function active(elementos, observador) {
 window.addEventListener("load",function(e){
 
     obrservar(sections)
-
+    let isResponsive = window.matchMedia("(max-width:780px)")
+    if (isResponsive.matches) { navbar.classList.add("hidden") }
     navIcon.addEventListener('click', e=> { navbar.classList.toggle("hidden") })
     for (const element of navlinks) {
         element.addEventListener('click', e=>{ navbar.classList.toggle("hidden") })

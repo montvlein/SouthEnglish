@@ -1,3 +1,5 @@
+const navbar = document.querySelector("nav")
+const navIcon = document.querySelector("header input[type=checkbox]")
 const navlinks = document.querySelectorAll(".navbar li a")
 const sections = document.querySelectorAll("section")
 const observador = new IntersectionObserver(active, {
@@ -23,22 +25,12 @@ function active(elementos, observador) {
     })
 }
 
-obrservar(sections)
+window.addEventListener("load",function(e){
 
-// window.addEventListener("load",function(e){
-//     for (const element of navlinks) {
-//         element.addEventListener('click', e=>{
-//             unSelectNavItem()
-//             element.classList.add("active")
-//         })
-//     }
+    obrservar(sections)
 
-//     function unSelectNavItem(){
-//         for (const element of navlinks) {
-//             element.classList.remove("active")
-//         }
-//     }
-
-// })
-
-
+    navIcon.addEventListener('click', e=> { navbar.classList.toggle("hidden") })
+    for (const element of navlinks) {
+        element.addEventListener('click', e=>{ navbar.classList.toggle("hidden") })
+    }
+})

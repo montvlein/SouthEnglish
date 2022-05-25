@@ -400,7 +400,6 @@ footer img {
     }
 
     header nav {
-        display: none;
         position: absolute;
         background-color:rgba(59, 10, 119, 0.9);
         top: 12vh;

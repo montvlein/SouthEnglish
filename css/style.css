@@ -391,15 +391,6 @@ footer img {
         display: unset;
     }
 
-    header input:checked ~ nav {
-        display: flex;
-        /* animation-name: entradaSalida;
-        animation-duration: 2s;
-        animation-delay: 0s;
-        animation-direction: alternate;
-        animation-timing-function: ease-in-out; */
-    }
-
     header nav {
         position: absolute;
         background-color:rgba(59, 10, 119, 0.9);

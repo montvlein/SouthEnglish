@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
-@import url(colors.css);
-@import url(generals.css);
+/* Estilos base de secciones/footer (el header/nav ahora es un componente Svelte) */
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
 
@@ -56,99 +55,6 @@ p {
     text-align: justify;
     padding: 1rem;
 }
-
-/* Header */
-
-header {
-    background-color: white;
-    height: 12vh;
-    justify-content: space-between;
-}
-
-
-header figure {
-    text-align: center;
-}
-
-header figure div {
-    display: flex;
-    align-items: center;
-}
-
-header figure p {
-    font-family: "Afl";
-    padding: 0;
-    text-align: center;
-}
-
-.logo {
-    max-width: 100%;
-    max-height: 4.5rem;
-    border-radius: 50%;
-}
-
-header label {
-    display: none;
-}
-
-header input[type=checkbox] {
-    display: none;
-}
-
-header nav {
-    background-color: var(--main-color);
-    width: 80%;
-    border-radius: 0 0 0 100%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-
-header nav > ul {
-    margin: 0 0.5rem;
-    padding: 0 0.5rem;
-    width: 100%;
-    justify-content: flex-end;
-}
-
-header nav > ul > li > a {
-    position: relative;
-    margin: 0 1rem;
-    font-size: 1.3rem;
-    font-family: "Afl";
-    color: #000;
-}
-
-header nav a:hover {
-    z-index :0;
-}
-
-header nav a:hover::before {
-    content: " ";
-    width: 100%;
-    height: 25%;
-    background-color: var(--secondary-color);
-    position: absolute;
-    z-index: -1;
-    bottom: -2px;
-    left: 5px;
-}
-
-.active {
-    color: black;
-}
-
-.active::before {
-    content: " ";
-    width: 100%;
-    height: 25%;
-    background-color: var(--secondary-color);
-    position: absolute;
-    bottom: -2px;
-    left: 5px;
-}
-
-/* end header */
 
 /* Main  */
 section {
@@ -267,7 +173,7 @@ section h2 {
 }
 
 #contacto div {
-    background-image: url("../public/undraw_things_to_say\ 1.svg");
+    background-image: url("/undraw_things_to_say\ 1.svg");
     background-repeat: no-repeat;
     background-position: 0% 66%;
     display: flex;
@@ -315,47 +221,6 @@ section h2 {
     background-color: var(--main-color);
 }
 
-/* WAVES */
-
-.wave {
-    position: absolute;
-    bottom: -8px;
-}
-
-.wave path {
-    fill-opacity: 1;
-}
-
-.waveInicio path {
-    fill: var(--main-color);
-}
-
-.waveSomos {
-    background-color: var(--secondary-color);
-}
-
-.waveSomos path {
-    fill: var(--main-color);
-}
-
-.waveServicios {
-    position: relative;
-    background-color: #fff;
-    margin-top: -3rem;
-}
-
-.waveServicios path {
-    fill: var(--secondary-color);
-}
-
-.waveFooter {
-    display: none;
-}
-
-.waveFooter path {
-    fill: var(--main-color);
-}
-
 /* footer */
 
 footer {
@@ -378,83 +243,12 @@ footer img {
     max-height: 300px;
 }
 
+/* Responsive de secciones/formulario (el header/nav es reactivo en Svelte) */
 @media (max-width:780px) {
-    header {
-        position: sticky;
-        top: 0;
-        z-index: 9;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    header label {
-        display: unset;
-    }
-
-    header nav {
-        position: absolute;
-        background-color:rgba(59, 10, 119, 0.9);
-        top: 12vh;
-        bottom: -88vh;
-        left: 0;
-        right: 0;
-        z-index: 10;
-        width: 100%;
-        border-radius: 0 0 0 60%;
-    }
-
-    header nav ul {
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    header nav ul li {
-        margin: 2.5rem 0;
-        font-weight: bold;
-        font-size: 2rem;
-    }
-
-    header nav > ul > li > a {
-        color: #fff;
-    }
-
-    .active {
-        color: #fff;
-    }
-
-    #inicio div {
-        bottom: 0;
-    }
-
-    #servicios > div {
-        flex-direction: column;
-    }
-
-    #servicios figure {
-        width: auto;
-    }
-
-    #servicios div figure img {
-        max-width: 350px;
-    }
-
-    #contacto form {
-        width: 100%;
-    }
-
-    #contacto input[type=submit] {
-        align-self: center;
-    }
-}
-
-@media (max-width:380px) {
-    header figcaption {
-        display: none;
-    }
-
-    header figure p {
-        display: none;
-    }
+    #inicio div { bottom: 0; }
+    #servicios > div { flex-direction: column; }
+    #servicios figure { width: auto; }
+    #servicios div figure img { max-width: 350px; }
+    #contacto form { width: 100%; }
+    #contacto input[type=submit] { align-self: center; }
 }

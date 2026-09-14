@@ -1,5 +1,11 @@
 :root {
-    --main-color:#c7bfe8;
-    --secondary-color:#D82594;
-    --complement-color: #3B0A77;
+  --main-color: #D8D1F2;
+  --secondary-color: #D62B9C;
+  --complement-color: #32105F;
+
+  --background: #FAF9FD;
+  --surface: #FFFFFF;
+  --text: #17121D;
+  --text-muted: #716A78;
+  --border: #E7E2EF;
 }

@@ -149,60 +149,75 @@
 
   <!-- SOMOS -->
   <section id="somos" class="bg-papel scroll-mt-[12vh]">
-    <div class="max-w-[1024px] mx-auto px-6 py-24">
+    <div class="max-w-[1200px] mx-auto px-6 py-24">
+      <div class="text-left">
       <p class="font-['Highschool'] text-2xl text-secondary">01</p>
       <h2 class="font-['Highschool'] text-4xl text-complement mt-2 mb-6">Quiénes somos</h2>
-      <p class="max-w-[65ch] leading-[1.7] text-ink/90 mb-4">South English es un instituto de idiomas enfocado en la enseñanza de inglés como lengua de comunicación global.</p>
-      <p class="max-w-[65ch] leading-[1.7] text-ink/90 mb-4">Nuestro objetivo es lograr que nuestros alumnos puedan utilizar lo que aprendan con nosotros en situaciones reales.</p>
-      <p class="max-w-[65ch] leading-[1.7] text-ink/90">Estamos comprometidos con la calidad, la innovación y sobre todo con lograr que nuestros estudiantes disfruten de su aprendizaje.</p>
+      </div>
+      <div class="flex flex-col items-center">
+      <p class="max-w-[65ch] leading-[1.7] text-ink/90 text-center mb-4">South English es un instituto de idiomas enfocado en la enseñanza de inglés como lengua de comunicación global.</p>
+      <p class="max-w-[65ch] leading-[1.7] text-ink/90 text-center mb-4">Nuestro objetivo es lograr que nuestros alumnos puedan utilizar lo que aprendan con nosotros en situaciones reales.</p>
+      <p class="max-w-[65ch] leading-[1.7] text-ink/90 text-center">Estamos comprometidos con la calidad, la innovación y sobre todo con lograr que nuestros estudiantes disfruten de su aprendizaje.</p>
       <p class="font-['Highschool'] text-2xl text-secondary mt-8">El equipo de South English</p>
+      </div>
     </div>
   </section>
 
   <!-- SERVICIOS -->
   <section id="servicios" class="bg-manteca scroll-mt-[12vh]">
     <div class="max-w-[1200px] mx-auto px-6 py-24">
+      <div class="text-left">
       <p class="font-['Highschool'] text-2xl text-secondary">02</p>
       <h2 class="font-['Highschool'] text-4xl text-complement mt-2 mb-10">Qué ofrecemos</h2>
-      <div class="grid sm:grid-cols-2 gap-6">
+      </div>
+      <div class="flex flex-col items-center">
+      <div class="grid sm:grid-cols-2 gap-6 w-full">
         <figure class="bg-white rounded-3xl p-6 shadow-[0_10px_30px_rgba(50,16,95,0.12)] text-center"><img src="/undraw_things_to_say%201.svg" alt="Clases grupales" class="w-full h-40 object-contain mb-4"><figcaption class="font-medium">Clases grupales e individuales</figcaption></figure>
         <figure class="bg-white rounded-3xl p-6 shadow-[0_10px_30px_rgba(50,16,95,0.12)] text-center"><img src="/undraw_vr_chat.svg" alt="Clases virtuales" class="w-full h-40 object-contain mb-4"><figcaption class="font-medium">Clases virtuales y presenciales</figcaption></figure>
         <figure class="bg-white rounded-3xl p-6 shadow-[0_10px_30px_rgba(50,16,95,0.12)] text-center"><img src="/undraw_exams.svg" alt="Exámenes internacionales" class="w-full h-40 object-contain mb-4"><figcaption class="font-medium">Exámenes internacionales</figcaption></figure>
         <figure class="bg-white rounded-3xl p-6 shadow-[0_10px_30px_rgba(50,16,95,0.12)] text-center"><img src="/undraw_businesswoman.svg" alt="Inglés empresarial" class="w-full h-40 object-contain mb-4"><figcaption class="font-medium">Business english</figcaption></figure>
+      </div>
       </div>
     </div>
   </section>
 
   <!-- NIVELES -->
   <section id="niveles" class="bg-papel scroll-mt-[12vh]">
-    <div class="max-w-[1024px] mx-auto px-6 py-24">
+    <div class="max-w-[1200px] mx-auto px-6 py-24">
+      <div class="text-left">
       <p class="font-['Highschool'] text-2xl text-secondary">03</p>
       <h2 class="font-['Highschool'] text-4xl text-complement mt-2 mb-10">Nuestros niveles</h2>
-      <div class="flex flex-wrap gap-x-16 gap-y-10">
+      </div>
+      <div class="flex flex-col items-center">
+      <div class="flex flex-wrap justify-evenly gap-16">
         <div>
           <h3 class="font-['Highschool'] text-3xl text-complement mb-4">Niños</h3>
-          <ul class="list-disc pl-6 leading-[1.7] text-ink/90"><li>Tiny Juniors (desde los 4 años)</li><li>Juniors 1, 2 y 3</li><li>Kids 1, 2 y 3</li></ul>
+          <ul class="list-disc pl-6 leading-[1.7] text-ink/90 marker:text-secondary space-y-1.5"><li>Tiny Juniors (desde los 4 años)</li><li>Juniors 1, 2 y 3</li><li>Kids 1, 2 y 3</li></ul>
         </div>
         <div>
           <h3 class="font-['Highschool'] text-3xl text-complement mb-4">Adolescentes y adultos</h3>
-          <ol class="list-decimal pl-6 leading-[1.7] text-ink/90"><li>1er Año - Beginners</li><li>2do Año - Elementary</li><li>3er Año - Pre-intermediate</li><li>4to Año - Intermediate</li><li>5to Año - Upper Intermediate A</li><li>6to Año - Upper Intermediate B</li></ol>
-          <ul class="list-disc pl-6 leading-[1.7] text-ink/90 mt-3"><li>FCE Course</li><li>CAE Course</li></ul>
-          <ul class="list-disc pl-6 leading-[1.7] text-ink/90 mt-3"><li>Six levels of conversation courses</li><li>Intensive Courses (1, 2, 3, 4)</li></ul>
+          <ol class="list-decimal pl-6 leading-[1.7] text-ink/90 marker:text-secondary marker:font-bold space-y-1.5"><li>1er Año - Beginners</li><li>2do Año - Elementary</li><li>3er Año - Pre-intermediate</li><li>4to Año - Intermediate</li><li>5to Año - Upper Intermediate A</li><li>6to Año - Upper Intermediate B</li></ol>
+          <ul class="list-disc pl-6 leading-[1.7] text-ink/90 marker:text-secondary space-y-1.5 mt-3"><li>FCE Course</li><li>CAE Course</li></ul>
+          <ul class="list-disc pl-6 leading-[1.7] text-ink/90 marker:text-secondary space-y-1.5 mt-3"><li>Six levels of conversation courses</li><li>Intensive Courses (1, 2, 3, 4)</li></ul>
         </div>
       </div>
-      <div class="mt-12 max-w-[65ch]">
+      <div class="mt-12 max-w-[65ch] flex flex-col items-center text-center">
         <p class="leading-[1.7] text-ink/90">Contactate con nosotros para coordinar un test de nivel oral y escrito evaluado por profesionales de la enseñanza en la comodidad de tu casa via zoom o google meets.</p>
         <a href="#contacto" class="pressable inline-block mt-6 bg-secondary text-white font-semibold px-8 py-4 rounded-2xl no-underline hover:bg-complement motion-reduce:transition-none transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary">Conocé tu nivel</a>
+      </div>
       </div>
     </div>
   </section>
 
   <!-- CONTACTO: el morado es un lugar (cierre) -->
   <section id="contacto" class="bg-complement text-white scroll-mt-[12vh]">
-    <div class="max-w-[1024px] mx-auto px-6 py-24">
+    <div class="max-w-[1200px] mx-auto px-6 py-24">
+      <div class="text-left">
       <p class="font-['Highschool'] text-2xl text-secondary">04</p>
       <h2 class="font-['Highschool'] text-4xl text-white mt-2 mb-10">Contacto</h2>
-      <div class="bg-manteca text-ink rounded-3xl p-6 md:p-10 max-w-[720px] shadow-[0_10px_30px_rgba(0,0,0,0.25)]">
+      </div>
+      <div class="flex flex-col items-center">
+      <div class="bg-manteca text-ink rounded-3xl p-6 md:p-10 w-full max-w-[720px] shadow-[0_10px_30px_rgba(0,0,0,0.25)]">
         <p class="leading-[1.7] mb-6">Completá el formulario y nos comunicaremos a la brevedad.</p>
         <form action="https://formsubmit.co/southenglishlab@gmail.com" method="post" class="flex flex-col">
           <label for="name" class="font-medium mb-1">Nombre</label>
@@ -211,16 +226,17 @@
           <input type="email" name="email" id="email" placeholder="nombre@mail.com" required class="bg-white border border-line rounded-xl px-4 py-3 mb-4 focus:outline-none focus:border-secondary focus:ring-2 focus:ring-secondary/40">
           <label for="consulta" class="font-medium mb-1">Mensaje</label>
           <textarea name="consulta" id="consulta" rows="5" required placeholder="Hola, estoy interesadx en los cursos ¿Cuándo me puedo inscribir?" class="bg-white border border-line rounded-xl px-4 py-3 mb-6 focus:outline-none focus:border-secondary focus:ring-2 focus:ring-secondary/40"></textarea>
-          <input type="submit" value="Quiero empezar" class="pressable self-start bg-secondary text-white font-semibold tracking-wide px-8 py-4 rounded-2xl border-0 cursor-pointer hover:bg-complement motion-reduce:transition-none transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+          <input type="submit" value="Quiero empezar" class="pressable bg-secondary text-white font-semibold tracking-wide px-8 py-4 rounded-2xl border-0 cursor-pointer hover:bg-complement motion-reduce:transition-none transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
         </form>
       </div>
-      <p class="mt-8 text-white/80">¡Te esperamos!</p>
+      <p class="mt-8 font-['Highschool'] text-2xl text-secondary">¡Te esperamos!</p>
+      </div>
     </div>
   </section>
 </main>
 
 <footer class="bg-complement text-white/80 border-t border-white/10">
-  <div class="max-w-[1200px] mx-auto px-6 py-10 flex flex-col md:flex-row items-center gap-6">
+  <div class="max-w-[1200px] mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-center gap-6">
     <img src="/LogoFooter.png" alt="South English" class="max-w-full max-h-16">
     <p class="text-sm leading-[1.7] max-w-[60ch]">Copyright © 2022 South English. Todos los derechos reservados. El nombre y el logo de South English son marcas registradas.</p>
   </div>
